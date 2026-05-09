@@ -10,6 +10,7 @@
 /models/
 /gguf/
 /g4.gguf
+/g4-model
 
 # Python
 .venv/
