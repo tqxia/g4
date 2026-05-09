@@ -1,0 +1,10 @@
+# Phase A — MLX reference.
+# Pin to ranges we've verified Gemma 4 support in. Bump as needed.
+
+mlx>=0.29.0
+mlx-lm>=0.29.0
+numpy>=1.26,<3
+huggingface_hub>=0.26
+tokenizers>=0.20
+sentencepiece>=0.2.0
+safetensors>=0.4

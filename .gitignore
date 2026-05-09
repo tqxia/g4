@@ -1,0 +1,30 @@
+# Build artifacts (Phase B onward)
+/g4
+/g4-server
+/g4_native
+/g4_test
+*.o
+*.dSYM/
+
+# Local models
+/models/
+/gguf/
+/g4.gguf
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Tests / scratch
+/misc/
+/TODO.md
+.*.swp
+.DS_Store
+
+# Test vector captures (big; regenerate from scripts/dump_logprobs.py)
+/tests/test-vectors/*.bin
